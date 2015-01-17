@@ -55,7 +55,7 @@ WSGI_APPLICATION = 'plataforma.wsgi.application'
 
 if ON_OPENSHIFT:
     DEBUG = True
-    TEMPLATE_DEBUG = False
+    TEMPLATE_DEBUG = True
     ALLOWED_HOSTS = ['*']
     DATABASES = {
         'default': {
