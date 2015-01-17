@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36ef9f0a-9265-417a-9a26-050875db6558" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wsgi.py" afterPath="$PROJECT_DIR$/../wsgi.py" />
-    </list>
+    <list default="true" id="36ef9f0a-9265-417a-9a26-050875db6558" name="Default" comment="" />
     <ignored path="plataforma.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421527559142" ignored="false" />
