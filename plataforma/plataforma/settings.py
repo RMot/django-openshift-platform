@@ -61,10 +61,10 @@ if ON_OPENSHIFT:
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'baseplatform',
-            'USER': os.getenv('OPENSHIFT_MYSQL_DB_USERNAME'),
-            'PASSWORD': os.getenv('OPENSHIFT_MYSQL_DB_PASSWORD'),
-            'HOST': os.getenv('OPENSHIFT_MYSQL_DB_HOST'),
-            'PORT': os.getenv('OPENSHIFT_MYSQL_DB_PORT'),
+            'USER': os.getenv('OPENSHIFT_POSTGRESQL_DB_USERNAME'),
+            'PASSWORD': os.getenv('OPENSHIFT_POSTGRESQL_DB_PASSWORD'),
+            'HOST': os.getenv('OPENSHIFT_POSTGRESQL_DB_HOST'),
+            'PORT': os.getenv('OPENSHIFT_POSTGRESQL_DB_PORT'),
             }
     }
 else:
