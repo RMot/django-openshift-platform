@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ef9f0a-9265-417a-9a26-050875db6558" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baseapp/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plataforma/settings.py" afterPath="$PROJECT_DIR$/plataforma/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plataforma/urls.py" afterPath="$PROJECT_DIR$/plataforma/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="plataforma.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421527559142" ignored="false" />
-    <file path="/settings.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421531348367" ignored="false" />
+    <file path="/settings.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421532009739" ignored="false" />
     <file path="/Python Console" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421367573425" ignored="false" />
     <file path="/wsgi.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421521319371" ignored="false" />
     <file path="/manage.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421516488667" ignored="false" />
@@ -16,6 +19,7 @@
     <file path="$PROJECT_DIR$/../../../django_openshift_base/Code/django_openshift/django_openshift/settings.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421527721865" ignored="false" />
     <file path="$PROJECT_DIR$/../../../django_openshift_base/Code/django_openshift/django_openshift/wsgi.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421527607084" ignored="false" />
     <file path="$PROJECT_DIR$/../../../django_openshift_base/Code/django_openshift/django_openshift/templates/base.html" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421527607084" ignored="false" />
+    <file path="/urls.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421531813015" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plataforma/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="23" selection-start="996" selection-end="996" vertical-scroll-proportion="0.847352">
+            <state line="47" column="38" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.5825545">
               <folding />
             </state>
           </provider>
@@ -56,8 +60,21 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plataforma/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="2" column="20" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baseapp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="1" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,15 +83,6 @@
         <entry file="file://$USER_HOME$/venv_Python27_A001/Lib/site-packages/django/core/management/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="353" column="0" selection-start="13686" selection-end="13686" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/importlib/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,7 +100,7 @@
       <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="1" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+            <state line="23" column="1" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#18#27#0" expanded="true" />
               </folding>
@@ -151,6 +159,8 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/plataforma/wsgi.py" />
         <option value="$PROJECT_DIR$/../wsgi.py" />
+        <option value="$PROJECT_DIR$/plataforma/urls.py" />
+        <option value="$PROJECT_DIR$/baseapp/urls.py" />
         <option value="$PROJECT_DIR$/plataforma/settings.py" />
       </list>
     </option>
@@ -499,16 +509,16 @@
     <MESSAGE value="-Correcion en WSGI.Py" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/plataforma/urls.py</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baseapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baseapp/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -574,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plataforma/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plataforma/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
@@ -604,16 +607,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+        <state line="23" column="1" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#18#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plataforma/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baseapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plataforma/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="23" selection-start="996" selection-end="996" vertical-scroll-proportion="0.847352">
+        <state line="47" column="38" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.5825545">
           <folding />
         </state>
       </provider>
