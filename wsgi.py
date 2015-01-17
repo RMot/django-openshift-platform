@@ -2,9 +2,9 @@
 import os
 import sys
 
-PROJECT_NAME = "plataforma"
+PROJECT_NAME = "plataforma.plataforma"
 
-#os.environ['DJANGO_SETTINGS_MODULE'] = PROJECT_NAME + '.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = PROJECT_NAME + '.settings'
 #sys.path.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi', PROJECT_NAME))
 
 virtenv = os.environ['OPENSHIFT_PYTHON_DIR'] + '/virtenv/'
