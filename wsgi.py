@@ -2,10 +2,10 @@
 import os
 import sys
 
-PROJECT_NAME = "baseplatform"
+PROJECT_NAME = "plataforma"
 
 os.environ['DJANGO_SETTINGS_MODULE'] = PROJECT_NAME + '.settings'
-sys.path.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi', PROJECT_NAME))
+#sys.path.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi', PROJECT_NAME))
 
 virtenv = os.environ['OPENSHIFT_PYTHON_DIR'] + '/virtenv/'
 os.environ['PYTHON_EGG_CACHE'] = os.path.join(virtenv, 'lib/python2.7/site-packages')
