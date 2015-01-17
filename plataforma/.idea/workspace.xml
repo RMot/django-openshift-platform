@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36ef9f0a-9265-417a-9a26-050875db6558" name="Default" comment="" />
+    <list default="true" id="36ef9f0a-9265-417a-9a26-050875db6558" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plataforma/settings.py" afterPath="$PROJECT_DIR$/plataforma/settings.py" />
+    </list>
     <ignored path="plataforma.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421527559142" ignored="false" />
-    <file path="/settings.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421527722168" ignored="false" />
+    <file path="/settings.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421531348367" ignored="false" />
     <file path="/Python Console" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421367573425" ignored="false" />
     <file path="/wsgi.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421521319371" ignored="false" />
     <file path="/manage.py" changelist="36ef9f0a-9265-417a-9a26-050875db6558" time="1421516488667" ignored="false" />
@@ -36,7 +38,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plataforma/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="30" selection-start="907" selection-end="907" vertical-scroll-proportion="-3.601246">
+            <state line="34" column="23" selection-start="996" selection-end="996" vertical-scroll-proportion="0.847352">
               <folding />
             </state>
           </provider>
@@ -90,7 +92,7 @@
       <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="1" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+            <state line="22" column="1" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#18#27#0" expanded="true" />
               </folding>
@@ -147,9 +149,9 @@
       <list>
         <option value="$PROJECT_DIR$/plataforma_base/wsgi.py" />
         <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/plataforma/settings.py" />
         <option value="$PROJECT_DIR$/plataforma/wsgi.py" />
         <option value="$PROJECT_DIR$/../wsgi.py" />
+        <option value="$PROJECT_DIR$/plataforma/settings.py" />
       </list>
     </option>
   </component>
@@ -413,7 +415,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -421,7 +423,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67064846" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2659091" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2659091" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -602,7 +604,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+        <state line="22" column="1" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#18#27#0" expanded="true" />
           </folding>
@@ -611,7 +613,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plataforma/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="30" selection-start="907" selection-end="907" vertical-scroll-proportion="-3.601246">
+        <state line="34" column="23" selection-start="996" selection-end="996" vertical-scroll-proportion="0.847352">
           <folding />
         </state>
       </provider>
