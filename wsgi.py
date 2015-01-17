@@ -12,4 +12,4 @@ except IOError:
 # line, it's possible required libraries won't be in your searchable path
 #
 
-from plataforma import baseapp
+from plataforma.plataforma.wsgi import baseapp
