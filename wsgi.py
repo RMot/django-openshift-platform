@@ -12,7 +12,7 @@ except IOError:
 # line, it's possible required libraries won't be in your searchable path
 #
 
-from plataforma.wsgi import baseapp
+from plataforma import baseapp
 
 def application(environ, start_response):
 
