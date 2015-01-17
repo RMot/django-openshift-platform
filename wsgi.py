@@ -27,5 +27,5 @@ import django
 django.setup()
 application = django.core.handlers.wsgi.WSGIHandler()
 
-from plataforma.plataforma.wsgi import baseapp
+#from plataforma.plataforma.wsgi import baseapp
 
