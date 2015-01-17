@@ -7,7 +7,7 @@ try:
 except IOError:
     pass
 
-from plataforma.wsgi import baseapp
+from plataforma.plataforma.wsgi import baseapp
 
 #!/usr/bin/python
 import os
