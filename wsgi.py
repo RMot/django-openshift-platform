@@ -10,7 +10,7 @@ except IOError:
     pass
 
 # add the virtualenv site-packages path to the sys.path
-sys.path.append(virtualenv + '/Lib/site-packages')
+sys.path.append(virtualenv + '/lib64/python2.7/site-packages')
 
 #
 # IMPORTANT: Put any additional includes below this line.  If placed above this
