@@ -10,11 +10,16 @@ except IOError:
     pass
 
 # add the virtualenv site-packages path to the sys.path
-sys.path.append(os.path.join(virtenv, 'lib/python2.7/site-packages'))
+os.environ['PYTHON_EGG_CACHE'] = os.path.join(virtenv, 'lib/python2.7/site-packages')
 
 #
 # IMPORTANT: Put any additional includes below this line.  If placed above this
 # line, it's possible required libraries won't be in your searchable path
 #
+import django.core.handlers.wsgi
+import django
+django.setup()
+application = django.core.handlers.wsgi.WSGIHandler()
 
 from plataforma.plataforma.wsgi import baseapp
+
